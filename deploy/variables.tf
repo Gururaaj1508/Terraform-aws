@@ -19,5 +19,5 @@ variable "db_password" {
 }
 
 variable "bastion_key_name" {
-  default = "recipe-app-api-devops-bastion"
+  default = "myapp-key"
 }
