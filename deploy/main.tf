@@ -13,11 +13,7 @@
 #   version = "~> 2.54.0"
 # }
 
-provider "aws" {
-    region = "us-east-2"
-    access_key = "AKIA54AEHBIJBDO6XDIW"
-    secret_key = "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"
-}
+
 
 locals {
   prefix = "${var.prefix}-${terraform.workspace}"
