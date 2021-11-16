@@ -21,3 +21,17 @@ variable "db_password" {
 variable "bastion_key_name" {
   default = "myapp-key"
 }
+
+variable "ecr_image_api" {
+  description = "ECR image for API"
+  default     = "********ECR image name********"
+}
+
+variable "ecr_image_proxy" {
+  description = "ECR image for proxy"
+  default     = "********ECR image name********"
+}
+
+variable "django_secret_key" {
+  description = "Secret key for django app"
+}

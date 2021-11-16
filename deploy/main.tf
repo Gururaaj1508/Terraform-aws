@@ -13,8 +13,6 @@
 #   version = "~> 2.54.0"
 # }
 
-
-
 locals {
   prefix = "${var.prefix}-${terraform.workspace}"
   common_tags = {
