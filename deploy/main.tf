@@ -13,6 +13,12 @@
 #   version = "~> 2.54.0"
 # }
 
+provider "aws" {
+  region     = "us-east-2"
+  access_key = ""
+  secret_key = ""
+}
+
 locals {
   prefix = "${var.prefix}-${terraform.workspace}"
   common_tags = {
